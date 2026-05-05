@@ -1,0 +1,9 @@
+body{
+    background-color:rgb(60,80,60);
+    color: rgb(184, 221, 202);
+}
+
+#div1{
+    background-color: rgb(77, 109, 138);
+    border-radius: 10px;
+}

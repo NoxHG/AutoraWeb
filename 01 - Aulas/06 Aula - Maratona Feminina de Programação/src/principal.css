@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(252, 237, 228);
+    color: #413836;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem; /* 1rem é o tamanho padrão da fonte, equivalente a 16px */
+}
+
+a {
+    color: #413836;
+    text-decoration: none;
+    /* text-decoration: none; remove o sublinhado dos links */
+}
+
+li a:hover {
+    /* li a:hover significa que quando o mouse passar por cima do link dentro de um item de lista, a cor do link mudará para #ff6f61 */
+    color: #ff6f61;
+}
+
+li {
+    padding: 0px;
+    margin: 0 1rem; 
+    /* margin: 1rem; adiciona uma margem de 1rem (16px) em todos os lados do item de lista */
+    display: inline-block;
+    /* display: inline-block; faz com que o link seja tratado como um bloco, permitindo aplicar margens e preenchimentos */
+}
